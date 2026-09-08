@@ -20,6 +20,28 @@ OctoAcme projects follow a five-phase lifecycle:
 4. **Release** - Deploy to production with quality gates and rollback plans
 5. **Close & Retrospective** - Capture learnings and convert to actionable improvements
 
+---
+
+## OctoAcme Project Management Processes Overview
+
+### Project Lifecycle & Phases
+
+OctoAcme operates on a structured five-phase project lifecycle designed to maximize customer value while maintaining clear ownership and accountability. The process begins with **Initiation**, where new ideas are validated through a lightweight Project One-pager that confirms business need, identifies stakeholders, and establishes success metrics. Once approved, the project moves to **Planning**, where work is broken into shippable increments with prioritized backlogs, clear acceptance criteria, and a Definition of Done. From there, the team enters **Execution**, which emphasizes iterative delivery through small PRs (≤400 lines), automated testing, and continuous quality checks. Projects then move through **Release & Deployment** with pre-release verifications and rollback protocols, concluding with **Retrospectives** that capture learnings and drive continuous improvement. This phased approach ensures transparency, reduces risk, and enables teams to measure impact at every stage.
+
+### Core Roles & Accountability
+
+OctoAcme defines three primary personas with distinct responsibilities: **Project Managers (PMs)** coordinate schedules, manage risks, and maintain stakeholder communication; **Product Managers (PdMs)** define outcomes, prioritize the backlog, and own success metrics; and **Developers** implement features collaboratively while contributing to design, testing, and risk identification. Each project has a named PM and Product Lead to ensure clear ownership, supported by QA/Testing roles and engaged stakeholders. This role clarity eliminates ambiguity and enables efficient decision-making across the organization.
+
+### Communication & Risk Management
+
+OctoAcme maintains a disciplined communication cadence with weekly syncs between PM and PdM, twice-weekly standups for delivery teams, and monthly stakeholder updates. Daily standups focus on progress, blockers, and dependencies, while weekly delivery syncs review progress and flag risks. The organization uses a formal **Risk Register** (ID, Description, Impact, Likelihood, Owner, Mitigation, Status) to proactively identify and track issues, with a three-level escalation path: team-level triage → PM escalation to Product Lead → sponsor-level engagement for business-impacting issues. Status updates follow a consistent template covering progress, next steps, risks/blockers, and decisions needed.
+
+### Quality Assurance & Delivery Standards
+
+Quality is built into every phase through mandatory unit tests, integration tests where applicable, and end-to-end smoke tests before release. All PRs require at least one approval and must pass automated CI/CD tests and security scans before merging. The project board tracks work through standardized columns (Backlog, Ready, In Progress, In Review, QA, Done), and releases follow a pre-release checklist including acceptance criteria verification, smoke testing in staging, and documented rollback plans. Teams measure velocity and burndown, monitor key metrics from the Project One-pager, and use dashboards to track errors, latency, and usage. This emphasis on testing, automation, and metrics-driven decision-making ensures consistent, reliable delivery.
+
+---
+
 ## Documentation Guide
 
 | Document | Phase | Purpose |
